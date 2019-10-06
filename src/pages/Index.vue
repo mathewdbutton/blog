@@ -1,8 +1,7 @@
 <template>
   <Layout>
     <header class="header">
-      <h1>Gridsome Blog</h1>
-      <p>A simple blog designed with Gridsome</p>
+      <p>My attempt to appear professional</p>
     </header>
     <BlogPostList />
   </Layout>

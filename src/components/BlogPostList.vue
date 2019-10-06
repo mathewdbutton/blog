@@ -1,6 +1,6 @@
 <template>
   <section class="posts">
-    <Post v-for="edge in $static.posts.edges" :key="edge.node.id" :post="edge.node" />
+    <PostItem v-for="edge in $static.posts.edges" :key="edge.node.id" :post="edge.node" />
   </section>
 </template>
 
@@ -23,10 +23,10 @@ query {
 </static-query>
 
 <script>
-import Post from "@/components/Post";
+import PostItem from "@/components/PostItem";
 export default {
   components: {
-    Post
+    PostItem
   },
   metaInfo: {
     title: "A simple blog"
