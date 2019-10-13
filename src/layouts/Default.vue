@@ -9,7 +9,7 @@
         <g-link class="nav__link" to="/about/">About</g-link>
       </nav>
     </header>
-    <slot/>
+    <slot />
   </div>
 </template>
 
@@ -21,11 +21,30 @@ query {
 }
 </static-query>
 
+<style lang="scss">
+  @font-face {
+    font-family: Quattrocento;
+    src: url('../assets/fonts/Quattrocento-Regular.ttf');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: Titillium;
+    src: url('../assets/fonts/TitilliumWeb-Regular.ttf');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: FiraSans;
+    src: url('../assets/fonts/FiraSans-Regular.ttf');
+    font-weight: normal;
+  }
+</style>
+
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
 

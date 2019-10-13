@@ -1,0 +1,18 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#ff0000" fill-opacity="0" ry="82.055651" rx="82.055651" id="svg_3" cy="150.000006" cx="149.999998" stroke-width="38" fill="#ff0000"/>
+  <rect stroke-opacity="0" id="svg_4" height="44.250818" width="44.250818" y="105.210202" x="103.484377" stroke-width="4" stroke="#ff0000" fill="#0048ff"/>
+  <rect stroke-opacity="0" id="svg_5" height="44.250818" width="44.250818" y="105.210202" x="103.484377" stroke-width="4" stroke="#ff0000" fill="#0048ff"/>
+  <rect stroke-opacity="0" id="svg_7" height="44.250818" width="44.250818" y="106.255497" x="151.219511" stroke-width="4" stroke="#ff0000" fill="#0048ff"/>
+  <rect stroke-opacity="0" id="svg_8" height="44.250818" width="44.250818" y="155.035927" x="151.567942" stroke-width="4" stroke="#ff0000" fill="#0048ff"/>
+  <rect stroke-opacity="0" id="svg_9" height="44.250818" width="44.250818" y="153.990632" x="103.484378" stroke-width="4" stroke="#ff0000" fill="#0048ff"/>
+  <path id="svg_2" d="m150,75a75,75 0 1 0 0,150a75,75 0 0 0 0,-150zm-24,112a15,15 0 1 1 15,-15a15,15 0 0 1 -15,15zm0,-44a15,15 0 1 1 0,-30a15,15 0 0 1 0,30zm48,44a15,15 0 1 1 0,-30a15,15 0 0 1 0,30zm0,-44a15,15 0 1 1 0,-30a15,15 0 0 1 0,30z"/>
+  <path id="svg_1" d="m150,260a110,110 0 1 1 0,-220a110,110 0 0 1 0,220zm0,-209a99,99 0 1 0 0,198a99,99 0 0 0 0,-198zm0,179a80,80 0 1 1 0,-160a80,80 0 0 1 0,160zm0,-149a69,69 0 1 0 0,138a69,69 0 0 0 0,-138z"/>
+ </g>
+</svg>

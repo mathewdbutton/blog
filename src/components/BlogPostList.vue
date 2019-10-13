@@ -1,6 +1,9 @@
 <template>
   <section class="posts">
-    <PostItem v-for="edge in $static.posts.edges" :key="edge.node.id" :post="edge.node" />
+    <template v-for="edge in $static.posts.edges">
+      <PostItem :key="edge.node.id" :post="edge.node" />
+      <hr :key="edge.node.id + 2" class="line" />
+    </template>
   </section>
 </template>
 
