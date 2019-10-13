@@ -27,10 +27,12 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    color: ["hover"]
+  },
   plugins: [
     ({ addBase, config }) => {
-      addBase({
+      return addBase({
         h1: {
           fontSize: config("theme.fontSize.2xl"),
           fontFamily: config("theme.fontFamily.heading")
@@ -41,12 +43,23 @@ module.exports = {
         },
         h3: {
           fontSize: config("theme.fontSize.lg"),
-          fontFamily: config("theme.fontFamily.subHeading")
+          fontFamily: config("theme.fontFamily.subHeading"),
+          color: config("theme.colors.accent.dark")
         },
         strong: {
           fontFamily: config("theme.fontFamily.subHeading")
         },
         p: {
+          fontFamily: config("theme.fontFamily.text")
+        },
+        body: {
+          backgroundColor: config("theme.colors.shade.light")
+        },
+        q: {
+          color: config("theme.colors.gray.600"),
+          fontStyle: "italic"
+        },
+        li: {
           fontFamily: config("theme.fontFamily.text")
         }
       });
