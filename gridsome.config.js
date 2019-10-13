@@ -4,6 +4,14 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const FlatMap = require("lodash").flatMap;
+
+const constructWhitelist = (prefixes, colours) => {
+  return FlatMap(prefixes, n => {
+    return colours.map(colour => `${n}${colour}`);
+  });
+};
+
 module.exports = {
   siteName: "Pushbutton Blog",
   plugins: [
@@ -18,7 +26,11 @@ module.exports = {
       use: "gridsome-plugin-tailwindcss",
       options: {
         tailwindConfig: "./tailwind.config.js",
-        purgeConfig: {},
+        purgeConfig: {
+          content: [], // content
+          css: [], // css
+          whitelist: constructWhitelist(["stroke-", "fill-"], ["primary", "accent-light", "accent-dark"])
+        },
         presetEnvConfig: {},
         shouldPurge: true,
         shouldImport: true,

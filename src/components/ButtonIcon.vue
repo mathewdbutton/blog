@@ -1,5 +1,11 @@
 <template>
-  <svg v-on:click="click" :width="size" :height="size" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <svg
+    v-on:click="click"
+    :width="size"
+    :height="size"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 220 220"
+  >
     <circle cx="110" cy="110" r="82.1" fill="none" :class="formattedBandColour" stroke-width="38" />
     <!-- Top Left -->
     <rect width="44.3" height="44.3" x="63.5" y="65.2" :class="formattedHoleColours[0]" />
@@ -20,7 +26,12 @@
 
 <script>
 export default {
-  props: ["holeColours", "bandColour", "size", "click"],
+  props: {
+    holeColours: Array,
+    bandColour:  String,
+    size: String,
+    click: Function
+  },
   computed: {
     formattedHoleColours() {
       return this.holeColours.map(colour => `fill-${colour}`);
