@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <header
-      class="text-white border-solid rounded-lg shadow-xl text-center bg-shade-dark mb-4 pb-2"
+      class="text-white border-solid rounded-lg shadow-xl text-center bg-shade-dark mb-4 pb-2 select-none"
     >
       <div class="p-4">
         <ButtonIcon
