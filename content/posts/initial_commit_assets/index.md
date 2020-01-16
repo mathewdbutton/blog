@@ -1,5 +1,5 @@
 ---
-title: I'm a magpie developer - DRAFT
+title: I'm a magpie developer
 description: I finally built one, for real this time
 date: 2019-05-23
 ---
@@ -17,7 +17,7 @@ I wanted to use VueJS because I've had more experience with it and I use ReactJS
 
 ### Gridsome
 
-[![Gridsome VueJS Framework Logo](./initial_commit_assets/gridsome_logo.svg "Gridsome VueJS Framework")][gridsome]
+[![Gridsome VueJS Framework Logo](./gridsome_logo.svg "Gridsome VueJS Framework")][gridsome]
 
 <q>Gridsome makes it easy for developers to build modern websites, apps & PWAs that are fast by default</q>
 
@@ -31,13 +31,13 @@ all of these blog posts are stored in markdown.
 
 ### TailwindCSS
 
-[![Tailwind CSS Logo](./initial_commit_assets/tailwind.svg "Tailwind CSS Logo")][tailwindcss]
+[![Tailwind CSS Logo](./tailwind.svg "Tailwind CSS Logo")][tailwindcss]
 
 TailwindCSS also came recommended from a few friends of mine. I've really enjoyed using the theming integrations that come with tailwind, as well as the ability to easily write plugins.
 
 ### Zeit Now
 
-[![Zeit Logo](./initial_commit_assets/zeit_now_logo.svg "Zeit Logo")][zeit]
+[![Zeit Logo](./zeit_now_logo.svg "Zeit Logo")][zeit]
 
 There were a bunch of services I could've tried to launch this blog, but I landed on Zeit Now because it was suggested by a colleague as being easy to use. So far I've found the Github integrations have made the CD process really smooth so I've been deploying small things quite often.
 
