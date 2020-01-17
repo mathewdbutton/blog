@@ -13,7 +13,7 @@
         />
       </div>
       <h1 class="text-4xl">PushButton</h1>
-      <h2 class="px-3">An attempt to appear professional</h2>
+      <h2 class="px-3">A Magpie Developer's Blog</h2>
     </header>
     <BlogPostList />
   </Layout>
