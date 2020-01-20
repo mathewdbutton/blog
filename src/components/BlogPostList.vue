@@ -9,7 +9,7 @@
 
 <static-query>
 query {
-  posts: allBlogPost {
+  posts: allBlogPost(order:ASC) {
     totalCount
     edges {
       node {
