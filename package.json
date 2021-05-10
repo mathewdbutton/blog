@@ -11,7 +11,7 @@
     "@gridsome/source-filesystem": "^0.6.1",
     "@gridsome/transformer-remark": "^0.3.4",
     "gridsome": "^0.7.12",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^2.2.26",
